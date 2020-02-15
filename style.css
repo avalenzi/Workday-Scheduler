@@ -1,0 +1,72 @@
+body {
+    font-family: 'Sriracha', cursive;
+    font-size: 16px;
+    line-height: 1;
+  }
+  
+  textarea{
+    background: transparent;
+    border: none;
+    resize: none;
+    color: #000000;
+    border-left: 1px solid rgb(33, 10, 238);
+    padding: 10px;
+  }
+  
+  .jumbotron {
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    border-radius: 0;
+    border-bottom: 10px solid rgb(33, 10, 238)
+  }
+  
+  .description{
+    white-space: pre-wrap;
+  }
+  
+  .time-block{
+    text-align: center;
+    border-radius: 15px;
+  }
+  
+  .row {
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 2px solid white;;
+  }
+  
+  .hour {
+    background-color: #ffffff;
+    color: #4f09ac;
+    border-top: 2px dashed #4f09ac;
+  }
+  
+  .past {
+    background-color: #d3d3d3;
+    color: white;
+  }
+  
+  .present {
+    background-color: #ff6961;
+    color: white;
+  }
+  
+  .future {
+    background-color: #77dd77;
+    color: white;
+  }
+  
+  .saveBtn {
+    border-left: 1px solid rgb(33, 10, 238);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: rgb(8, 199, 241);
+    color: white;
+  }
+  
+  .saveBtn i:hover {
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+  }
+  
